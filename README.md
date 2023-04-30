@@ -1,0 +1,1 @@
+# strict_rest_api_builder
