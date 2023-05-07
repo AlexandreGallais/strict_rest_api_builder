@@ -1,1 +1,3 @@
-# strict_rest_api_builder
+# Strict Rest Api Builder (SRAB)
+
+Work in progress.

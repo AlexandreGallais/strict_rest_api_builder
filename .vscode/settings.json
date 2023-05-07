@@ -1,0 +1,61 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/.svn": false,
+        "**/.hg": false,
+        "**/CVS": false,
+        "**/.DS_Store": false,
+        "**/Thumbs.db": false,
+        "tsconfig.json": false,
+        "package.json": false,
+        "package-lock.json": false,
+        "LICENSE": false,
+        "lib.deno.d.ts": false,
+        "deno.jsonc": false,
+        ".gitignore": false,
+        ".eslintrc": false,
+        ".eslintignore": false,
+        "node_modules": false,
+        ".vscode": false
+    },
+    "explorerExclude.backup": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "tsconfig.json": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "LICENSE": true,
+        "lib.deno.d.ts": true,
+        "deno.jsonc": true,
+        ".gitignore": true,
+        ".eslintrc": true,
+        ".eslintignore": true,
+        "node_modules": true,
+        ".vscode": true
+    },
+    "deno.enable": true,
+    "[json]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "[markdown]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.markdownlint": true
+        }
+    },
+    "eslint.probe": ["typescript"],
+    "eslint.format.enable": true,
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    }
+}
